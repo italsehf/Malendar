@@ -11,7 +11,7 @@
 
 [<img src="https://img.shields.io/badge/Swift-5.6-orange?">](https://developer.apple.com/kr/swift/) [<img src="https://img.shields.io/badge/Xcode-13.3-blue?">](https://developer.apple.com/kr/xcode/)
 
-[📜 BackLog ➡️](https://docs.google.com/spreadsheets/d/1GZk9kV0nV0WlljCNEnlUKKoqDpMngs0d5s4YO_hYB30/edit#gid=0)    
+[📝 BackLog ➡️](https://docs.google.com/spreadsheets/d/1GZk9kV0nV0WlljCNEnlUKKoqDpMngs0d5s4YO_hYB30/edit#gid=0)    
 
 </div>
     
