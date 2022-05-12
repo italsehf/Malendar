@@ -18,6 +18,19 @@
 <br>
 <br>
 
+## 👀 Preview
+
+- A Calendar app that allows users to customize all UI colors and add memos.
+
+|<img width=220 src="https://i.imgur.com/5GcJo4l.jpg">|<img width=220 src="https://i.imgur.com/IOgzamz.jpg">|
+|:-:|:-:|
+|`Main`|`Main Memo`|
+|<img width=220 src="https://i.imgur.com/IGN0cfh.jpg">|<img width=220 src="https://i.imgur.com/5Y54z0u.jpg">|
+|`Add Memo`|`UI Color`|
+
+<br>
+<br>
+
 ## 👨🏻‍💻 Developer
 
 |Developer|
