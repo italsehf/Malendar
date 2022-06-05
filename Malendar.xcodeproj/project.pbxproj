@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C903CEA128167AD100261B4E /* MalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C903CE9128167ACF00261B4E /* MalendarApp.swift */; };
+		C903CEA228167AD100261B4E /* MalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C903CE9128167ACF00261B4E /* MalendarApp.swift */; };
+		C903CEA328167AD100261B4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C903CE9228167ACF00261B4E /* ContentView.swift */; };
+		C903CEA428167AD100261B4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C903CE9228167ACF00261B4E /* ContentView.swift */; };
+		C903CEA528167AD100261B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C903CE9328167AD100261B4E /* Assets.xcassets */; };
+		C903CEA628167AD100261B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C903CE9328167AD100261B4E /* Assets.xcassets */; };
+		C94C61DF281FB68D00D92508 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94C61DE281FB68D00D92508 /* Home.swift */; };
+		C94C61E1281FB69B00D92508 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94C61E0281FB69B00D92508 /* CustomDatePicker.swift */; };
+		C94C61E3281FB6B400D92508 /* SettingColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94C61E2281FB6B400D92508 /* SettingColorPicker.swift */; };
+		C94C61E5281FB6BF00D92508 /* AddMemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94C61E4281FB6BF00D92508 /* AddMemo.swift */; };
+		C94C61E7281FB6E900D92508 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94C61E6281FB6E900D92508 /* DateValue.swift */; };
+		C94C61EC281FB83F00D92508 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94C61EB281FB83F00D92508 /* Memo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C903CE9128167ACF00261B4E /* MalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MalendarApp.swift; sourceTree = "<group>"; };
+		C903CE9228167ACF00261B4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C903CE9328167AD100261B4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C903CE9828167AD100261B4E /* Malendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Malendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C903CE9E28167AD100261B4E /* Malendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Malendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C903CEA028167AD100261B4E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C94C61DE281FB68D00D92508 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C94C61E0281FB69B00D92508 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		C94C61E2281FB6B400D92508 /* SettingColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingColorPicker.swift; sourceTree = "<group>"; };
+		C94C61E4281FB6BF00D92508 /* AddMemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemo.swift; sourceTree = "<group>"; };
+		C94C61E6281FB6E900D92508 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		C94C61EB281FB83F00D92508 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C903CE9528167AD100261B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C903CE9B28167AD100261B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C903CE8B28167ACF00261B4E = {
+			isa = PBXGroup;
+			children = (
+				C903CE9028167ACF00261B4E /* Shared */,
+				C903CE9F28167AD100261B4E /* macOS */,
+				C903CE9928167AD100261B4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C903CE9028167ACF00261B4E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C94C61DD281FB62000D92508 /* Model */,
+				C94C61DC281FB60F00D92508 /* View */,
+				C903CE9128167ACF00261B4E /* MalendarApp.swift */,
+				C903CE9228167ACF00261B4E /* ContentView.swift */,
+				C903CE9328167AD100261B4E /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C903CE9928167AD100261B4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C903CE9828167AD100261B4E /* Malendar.app */,
+				C903CE9E28167AD100261B4E /* Malendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C903CE9F28167AD100261B4E /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C903CEA028167AD100261B4E /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		C94C61DC281FB60F00D92508 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C94C61DE281FB68D00D92508 /* Home.swift */,
+				C94C61E0281FB69B00D92508 /* CustomDatePicker.swift */,
+				C94C61E2281FB6B400D92508 /* SettingColorPicker.swift */,
+				C94C61E4281FB6BF00D92508 /* AddMemo.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C94C61DD281FB62000D92508 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C94C61E6281FB6E900D92508 /* DateValue.swift */,
+				C94C61EB281FB83F00D92508 /* Memo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C903CE9728167AD100261B4E /* Malendar (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C903CEA928167AD100261B4E /* Build configuration list for PBXNativeTarget "Malendar (iOS)" */;
+			buildPhases = (
+				C903CE9428167AD100261B4E /* Sources */,
+				C903CE9528167AD100261B4E /* Frameworks */,
+				C903CE9628167AD100261B4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Malendar (iOS)";
+			productName = "Malendar (iOS)";
+			productReference = C903CE9828167AD100261B4E /* Malendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C903CE9D28167AD100261B4E /* Malendar (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C903CEAC28167AD100261B4E /* Build configuration list for PBXNativeTarget "Malendar (macOS)" */;
+			buildPhases = (
+				C903CE9A28167AD100261B4E /* Sources */,
+				C903CE9B28167AD100261B4E /* Frameworks */,
+				C903CE9C28167AD100261B4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Malendar (macOS)";
+			productName = "Malendar (macOS)";
+			productReference = C903CE9E28167AD100261B4E /* Malendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C903CE8C28167ACF00261B4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C903CE9728167AD100261B4E = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C903CE9D28167AD100261B4E = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = C903CE8F28167ACF00261B4E /* Build configuration list for PBXProject "Malendar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C903CE8B28167ACF00261B4E;
+			productRefGroup = C903CE9928167AD100261B4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C903CE9728167AD100261B4E /* Malendar (iOS) */,
+				C903CE9D28167AD100261B4E /* Malendar (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C903CE9628167AD100261B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C903CEA528167AD100261B4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C903CE9C28167AD100261B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C903CEA628167AD100261B4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C903CE9428167AD100261B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94C61E3281FB6B400D92508 /* SettingColorPicker.swift in Sources */,
+				C94C61E1281FB69B00D92508 /* CustomDatePicker.swift in Sources */,
+				C903CEA328167AD100261B4E /* ContentView.swift in Sources */,
+				C94C61EC281FB83F00D92508 /* Memo.swift in Sources */,
+				C94C61E5281FB6BF00D92508 /* AddMemo.swift in Sources */,
+				C94C61DF281FB68D00D92508 /* Home.swift in Sources */,
+				C94C61E7281FB6E900D92508 /* DateValue.swift in Sources */,
+				C903CEA128167AD100261B4E /* MalendarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C903CE9A28167AD100261B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C903CEA428167AD100261B4E /* ContentView.swift in Sources */,
+				C903CEA228167AD100261B4E /* MalendarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C903CEA728167AD100261B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C903CEA828167AD100261B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C903CEAA28167AD100261B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X6GW8H4RNG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alsehf.Malendar;
+				PRODUCT_NAME = Malendar;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C903CEAB28167AD100261B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X6GW8H4RNG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alsehf.Malendar;
+				PRODUCT_NAME = Malendar;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C903CEAD28167AD100261B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X6GW8H4RNG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alsehf.Malendar;
+				PRODUCT_NAME = Malendar;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C903CEAE28167AD100261B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X6GW8H4RNG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alsehf.Malendar;
+				PRODUCT_NAME = Malendar;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C903CE8F28167ACF00261B4E /* Build configuration list for PBXProject "Malendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C903CEA728167AD100261B4E /* Debug */,
+				C903CEA828167AD100261B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C903CEA928167AD100261B4E /* Build configuration list for PBXNativeTarget "Malendar (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C903CEAA28167AD100261B4E /* Debug */,
+				C903CEAB28167AD100261B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C903CEAC28167AD100261B4E /* Build configuration list for PBXNativeTarget "Malendar (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C903CEAD28167AD100261B4E /* Debug */,
+				C903CEAE28167AD100261B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C903CE8C28167ACF00261B4E /* Project object */;
+}
