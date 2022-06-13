@@ -67,7 +67,7 @@ struct AddMemo: View {
                 HStack{
                     
                     Button(action: {
-//                        currentDate = datePickerSelection
+                        //                        currentDate = datePickerSelection
                         presentationMode.wrappedValue.dismiss()
                     }) {
                         Text("Save")
