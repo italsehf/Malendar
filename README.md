@@ -2,8 +2,8 @@
 
 <div align="center">
 
-<img width=200 src="https://i.imgur.com/HLyygOX.png">    
-    
+<img width=200 src="https://user-images.githubusercontent.com/103008077/190325439-1918f94c-00a4-49cf-a81f-ddb4198f5776.png">  
+
 <br>
 <br>
 
