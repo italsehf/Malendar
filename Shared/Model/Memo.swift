@@ -36,7 +36,7 @@ var memos: [MemoMetaData] = [
 
     MemoMetaData(memo: [
     
-        Memo(title: "NC1, The End"),
+        Memo(title: "Macro, Begin"),
         Memo(title: "Get some rest😵"),
         Memo(title: "Pokemon Bread Ticketing")
     ], memoDate: getSampleDate(offset: 0)),
